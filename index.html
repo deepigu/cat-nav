@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!----<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <meta name="author" content="Catalyst">
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Catalyst - Enterprise Intelligence Solutions">
+ <!----   <meta property="og:title" content="Catalyst - Enterprise Intelligence Solutions">
     <meta property="og:description" content="We help you be Naturally Smart, not just Artificially Intelligent">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.catalyst.com">
@@ -16,24 +16,24 @@
     <title>Catalyst - Enterprise Intelligence Solutions | Naturally Smart AI</title>
     
     <!-- Preconnect to external resources for performance -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!----    <link rel="preconnect" href="https://fonts.googleapis.com">
+<!----    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!----    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- CSS -->
-    <link rel="stylesheet" href="styles.css">
+<!----    <link rel="stylesheet" href="styles.css">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+ <!----   <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
 <body>
     <!-- Skip to main content link for screen readers -->
-    <a href="#main-content" class="skip-link" aria-label="Skip to main content">Skip to main content</a>
+<!----    <a href="#main-content" class="skip-link" aria-label="Skip to main content">Skip to main content</a>
 
     <!-- Header -->
-    <header role="banner" class="header" id="header">
+<!----    <header role="banner" class="header" id="header">
         <nav role="navigation" class="nav container" aria-label="Main navigation">
             <div class="nav__brand">
                 <a href="#home" class="nav__logo" aria-label="Catalyst Home">
@@ -42,7 +42,7 @@
             </div>
             
             <!-- Mobile menu button -->
-            <button class="nav__toggle" 
+     <!----       <button class="nav__toggle" 
                     aria-label="Toggle navigation menu"
                     aria-controls="nav-menu"
                     aria-expanded="false"
@@ -63,8 +63,8 @@
     </header>
 
     <!-- Main Content -->
-    <main id="main-content" role="main">
-        <!-- Hero Section -->
+<!----    <main id="main-content" role="main">
+        <!-- Hero Section --
         <section id="home" class="hero" aria-labelledby="hero-title">
             <div class="container">
                 <div class="hero__content">
@@ -77,11 +77,11 @@
                     <span id="cta-description" class="sr-only">Contact us to begin your enterprise intelligence journey</span>
                 </div>
             </div>
-            <!-- Decorative background pattern -->
+            <!-- Decorative background pattern --
             <div class="hero__pattern" aria-hidden="true"></div>
         </section>
 
-        <!-- Challenges Section -->
+        <!-- Challenges Section --
         <section id="challenges" class="challenges" aria-labelledby="challenges-title">
             <div class="container">
                 <header class="section__header">
@@ -110,7 +110,7 @@
             </div>
         </section>
 
-        <!-- Solutions Section -->
+        <!-- Solutions Section --
         <section id="solutions" class="solutions" aria-labelledby="solutions-title">
             <div class="container">
                 <header class="section__header">
@@ -167,7 +167,7 @@
             </div>
         </section>
 
-        <!-- About Section -->
+        <!-- About Section --
         <section id="about" class="about" aria-labelledby="about-title">
             <div class="container">
                 <div class="about__content">
@@ -206,7 +206,7 @@
             </div>
         </section>
 
-        <!-- Contact Section -->
+        <!-- Contact Section --
         <section id="contact" class="contact" aria-labelledby="contact-title">
             <div class="container">
                 <header class="section__header">
@@ -272,7 +272,7 @@
         </section>
     </main>
 
-    <!-- Footer -->
+    <!-- Footer --
     <footer role="contentinfo" class="footer">
         <div class="container">
             <p class="footer__text">
@@ -284,7 +284,39 @@
         </div>
     </footer>
 
-    <!-- JavaScript -->
     <script src="scripts.js"></script>
 </body>
+
 </html>
+<!--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Nav</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <div class="nav__brand">CATALYST</div>
+      <button class="nav__toggle" aria-label="Toggle Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="nav__menu">
+        <li><a href="#home" class="nav__link">Home</a></li>
+        <li><a href="#challenges" class="nav__link">Challenges</a></li>
+        <li><a href="#solutions" class="nav__link">Solutions</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
+
